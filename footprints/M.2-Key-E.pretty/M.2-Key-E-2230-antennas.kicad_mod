@@ -498,39 +498,6 @@
 			)
 		)
 	)
-	(dimension
-		(type aligned)
-		(layer "F.SilkS")
-		(uuid "babd00e4-08dc-4ffd-a9f8-fffc5f7f9808")
-		(pts
-			(xy 1 1) (xy 1 4.8)
-		)
-		(height 2.45)
-		(gr_text "3.8000 mm"
-			(at -2.55 2.9 90)
-			(layer "F.SilkS")
-			(uuid "babd00e4-08dc-4ffd-a9f8-fffc5f7f9808")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-			)
-		)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 4)
-		)
-		(style
-			(thickness 0.1)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
-	)
 	(pad "1" connect rect
 		(at 21.275 29.725)
 		(size 0.35 1.45)
@@ -1007,7 +974,7 @@
 		(zone_connect 2)
 		(uuid "40f5cb92-a64d-4f13-a393-412c8cf43598")
 	)
-	(pad "77" connect oval
+	(pad "76" connect oval
 		(at 12 1.5)
 		(size 5 6)
 		(layers "B.Cu" "B.Mask")

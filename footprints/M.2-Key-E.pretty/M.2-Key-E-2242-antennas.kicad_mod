@@ -972,7 +972,7 @@
 		(zone_connect 2)
 		(uuid "0c91130f-2f6d-4090-8039-3a815cabbe2e")
 	)
-	(pad "77" connect oval
+	(pad "76" connect oval
 		(at 12 1.5)
 		(size 5 6)
 		(layers "B.Cu" "B.Mask")

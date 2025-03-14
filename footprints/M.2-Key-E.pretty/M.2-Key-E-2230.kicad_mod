@@ -1,4 +1,4 @@
-(footprint "2230"
+(footprint "M.2-Key-E-2230"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -758,7 +758,7 @@
 		(zone_connect 2)
 		(uuid "40f5cb92-a64d-4f13-a393-412c8cf43598")
 	)
-	(pad "77" connect oval
+	(pad "76" connect oval
 		(at 12 1.5)
 		(size 5 6)
 		(layers "B.Cu" "B.Mask")
