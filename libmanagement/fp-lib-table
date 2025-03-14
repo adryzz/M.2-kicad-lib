@@ -1,4 +1,5 @@
 (fp_lib_table
   (version 7)
   (lib (name "M.2-Key-E")(type "KiCad")(uri "/home/lena/Documents/kicad/m.2-kicad-lib/footprints/M.2-Key-E.pretty")(options "")(descr ""))
+  (lib (name "M.2-Key-M")(type "KiCad")(uri "/home/lena/Documents/kicad/m.2-kicad-lib/footprints/M.2-Key-M.pretty")(options "")(descr ""))
 )

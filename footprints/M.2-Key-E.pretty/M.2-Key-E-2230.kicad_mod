@@ -65,7 +65,7 @@
 			)
 		)
 	)
-	(attr exclude_from_bom)
+	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 	(fp_line
 		(start 1 1)
 		(end 1 27)
