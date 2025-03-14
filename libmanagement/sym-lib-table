@@ -1,3 +1,4 @@
 (sym_lib_table
   (version 7)
+  (lib (name "M.2")(type "KiCad")(uri "/home/lena/Documents/kicad/m.2-kicad-lib/symbols/m.2.kicad_sym")(options "")(descr ""))
 )
