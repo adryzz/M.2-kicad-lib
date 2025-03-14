@@ -430,7 +430,8 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "M.2 Key-E"
+      "M.2 Key-E",
+      "M.2-Key-E"
     ],
     "pinned_symbol_libs": []
   },
