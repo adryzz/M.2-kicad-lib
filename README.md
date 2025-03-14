@@ -22,7 +22,7 @@ Handmade following the [PCI Express M.2 Electromechanical Specification Revision
 | Key E   	| ☑️📶   	| ☑️📶\*  	| ❌    	| ❌    	| ❌     	| 🚧    	| 🚧    	| ❌    	|
 | Key A+E 	| 🚧    	| 🚧*   	| ❌    	| ❌    	| ❌     	| 🚧    	| 🚧    	| ❌    	|
 | Key M   	| ☑️    	| ☑️    	| ☑️    	| ☑️    	| ☑️     	| ❌    	| ❌    	| ❌    	|
-| Key B+M 	| 🚧    	| 🚧    	| 🚧    	| 🚧    	| 🚧     	| ❌    	| ❌    	| ❌    	|
+| Key B+M 	| ☑️    	| ☑️    	| ☑️    	| ☑️    	| ☑️     	| ❌    	| ❌    	| ❌    	|
 
 <sub>[\*] Technically not in spec, but widely used.</sub>
 
