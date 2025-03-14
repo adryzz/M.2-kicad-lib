@@ -1,4 +1,4 @@
-(footprint "2230-antennas"
+(footprint "M.2-Key-E-2230-antennas"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -497,6 +497,39 @@
 				(thickness 0.15)
 			)
 		)
+	)
+	(dimension
+		(type aligned)
+		(layer "F.SilkS")
+		(uuid "babd00e4-08dc-4ffd-a9f8-fffc5f7f9808")
+		(pts
+			(xy 1 1) (xy 1 4.8)
+		)
+		(height 2.45)
+		(gr_text "3.8000 mm"
+			(at -2.55 2.9 90)
+			(layer "F.SilkS")
+			(uuid "babd00e4-08dc-4ffd-a9f8-fffc5f7f9808")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
 	)
 	(pad "1" connect rect
 		(at 21.275 29.725)
@@ -1006,10 +1039,10 @@
 		)
 		(polygon
 			(pts
-				(xy 23 5) (xy 21.6 5) (xy 21.6 2.1) (xy 19.6 2.1) (xy 19.6 4.1) (xy 21.6 4.1) (xy 21.6 5) (xy 17.1 5)
-				(xy 17.1 2.1) (xy 15.1 2.1) (xy 15.1 4.1) (xy 17.1 4.1) (xy 17.1 5) (xy 8.7 5) (xy 8.7 2) (xy 6.7 2)
-				(xy 6.7 4) (xy 8.7 4) (xy 8.7 5) (xy 4.2 5) (xy 4.2 2) (xy 2.2 2) (xy 2.2 4) (xy 4.2 4) (xy 4.2 5)
-				(xy 1 5) (xy 1 1) (xy 23 1)
+				(xy 23 4.8) (xy 21.6 4.8) (xy 21.6 2.1) (xy 19.6 2.1) (xy 19.6 4.1) (xy 21.6 4.1) (xy 21.6 4.8)
+				(xy 17.1 4.8) (xy 17.1 2.1) (xy 15.1 2.1) (xy 15.1 4.1) (xy 17.1 4.1) (xy 17.1 4.8) (xy 8.7 4.8)
+				(xy 8.7 2) (xy 6.7 2) (xy 6.7 4) (xy 8.7 4) (xy 8.7 4.8) (xy 4.2 4.8) (xy 4.2 2) (xy 2.2 2) (xy 2.2 4)
+				(xy 4.2 4) (xy 4.2 4.8) (xy 1 4.8) (xy 1 1) (xy 23 1)
 			)
 		)
 	)

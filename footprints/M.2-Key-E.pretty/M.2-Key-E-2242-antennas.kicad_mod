@@ -1,4 +1,4 @@
-(footprint "2242-antennas"
+(footprint "M.2-Key-E-2242-antennas"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -65,8 +65,8 @@
 	)
 	(attr exclude_from_bom)
 	(fp_line
-		(start 2.25 2)
-		(end 2.25 4)
+		(start 2.2 2)
+		(end 2.2 4)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -75,8 +75,8 @@
 		(uuid "c6f1fbd9-1069-4236-ab56-8f344c6d983a")
 	)
 	(fp_line
-		(start 2.25 4)
-		(end 4.25 4)
+		(start 2.2 4)
+		(end 4.2 4)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -85,8 +85,8 @@
 		(uuid "70f299c8-0bf8-4be1-a154-10d599a0df86")
 	)
 	(fp_line
-		(start 4.25 2)
-		(end 2.25 2)
+		(start 4.2 2)
+		(end 2.2 2)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -95,8 +95,8 @@
 		(uuid "fe88af8c-af49-40d6-b45c-99e277fb03c9")
 	)
 	(fp_line
-		(start 4.25 4)
-		(end 4.25 2)
+		(start 4.2 4)
+		(end 4.2 2)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -105,8 +105,8 @@
 		(uuid "a1b99cb0-d47d-4ba6-abdc-6c885521ca5f")
 	)
 	(fp_line
-		(start 6.75 2)
-		(end 8.75 2)
+		(start 6.7 2)
+		(end 8.7 2)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -115,8 +115,8 @@
 		(uuid "4a96ad59-2c84-4dd5-b84b-72a6a015a1b6")
 	)
 	(fp_line
-		(start 6.75 4)
-		(end 6.75 2)
+		(start 6.7 4)
+		(end 6.7 2)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -125,8 +125,8 @@
 		(uuid "42e58162-7aa9-4356-95a3-c349159951a5")
 	)
 	(fp_line
-		(start 8.75 2)
-		(end 8.75 4)
+		(start 8.7 2)
+		(end 8.7 4)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -135,8 +135,8 @@
 		(uuid "95df7fa8-8556-4dae-a6d5-3394705d32d9")
 	)
 	(fp_line
-		(start 8.75 4)
-		(end 6.75 4)
+		(start 8.7 4)
+		(end 6.7 4)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -443,7 +443,7 @@
 		)
 	)
 	(fp_text user "ANT3"
-		(at 7 3.25 0)
+		(at 6.95 3.25 0)
 		(unlocked yes)
 		(layer "Cmts.User")
 		(uuid "3f4c20e0-7849-44d4-a570-e6cafc11592a")
@@ -457,7 +457,7 @@
 		)
 	)
 	(fp_text user "ANT4"
-		(at 2.5 3.25 0)
+		(at 2.45 3.25 0)
 		(unlocked yes)
 		(layer "Cmts.User")
 		(uuid "8b97c9ef-3a44-4e1a-b8ef-09a8b8335b97")
@@ -983,7 +983,7 @@
 		(net 0)
 		(net_name "")
 		(layers "F&B.Cu")
-		(uuid "7b11daaf-5de6-4b71-a604-34848c7823b5")
+		(uuid "f3749759-6a3f-46fe-a85c-622fdf4c0072")
 		(name "ANTENNAS")
 		(hatch edge 0.5)
 		(connect_pads
@@ -1004,10 +1004,10 @@
 		)
 		(polygon
 			(pts
-				(xy 23.05 5) (xy 21.65 5) (xy 21.65 2.1) (xy 19.65 2.1) (xy 19.65 4.1) (xy 21.65 4.1) (xy 21.65 5)
-				(xy 17.15 5) (xy 17.15 2.1) (xy 15.15 2.1) (xy 15.15 4.1) (xy 17.15 4.1) (xy 17.15 5) (xy 8.75 5)
-				(xy 8.75 2) (xy 6.75 2) (xy 6.75 4) (xy 8.75 4) (xy 8.75 5) (xy 4.25 5) (xy 4.25 2) (xy 2.25 2)
-				(xy 2.25 4) (xy 4.25 4) (xy 4.25 5) (xy 1.05 5) (xy 1.05 1) (xy 23.05 1)
+				(xy 23 4.8) (xy 21.6 4.8) (xy 21.6 2.1) (xy 19.6 2.1) (xy 19.6 4.1) (xy 21.6 4.1) (xy 21.6 4.8)
+				(xy 17.1 4.8) (xy 17.1 2.1) (xy 15.1 2.1) (xy 15.1 4.1) (xy 17.1 4.1) (xy 17.1 4.8) (xy 8.7 4.8)
+				(xy 8.7 2) (xy 6.7 2) (xy 6.7 4) (xy 8.7 4) (xy 8.7 4.8) (xy 4.2 4.8) (xy 4.2 2) (xy 2.2 2) (xy 2.2 4)
+				(xy 4.2 4) (xy 4.2 4.8) (xy 1 4.8) (xy 1 1) (xy 23 1)
 			)
 		)
 	)
@@ -1036,7 +1036,7 @@
 		)
 		(polygon
 			(pts
-				(xy 2.25 2) (xy 4.25 2) (xy 4.25 4) (xy 2.25 4)
+				(xy 2.2 2) (xy 4.2 2) (xy 4.2 4) (xy 2.2 4)
 			)
 		)
 	)
@@ -1065,7 +1065,7 @@
 		)
 		(polygon
 			(pts
-				(xy 6.75 2) (xy 8.75 2) (xy 8.75 4) (xy 6.75 4)
+				(xy 6.7 2) (xy 8.7 2) (xy 8.7 4) (xy 6.7 4)
 			)
 		)
 	)
