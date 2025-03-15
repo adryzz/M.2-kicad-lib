@@ -34,3 +34,13 @@ Handmade following the [PCI Express M.2 Electromechanical Specification Revision
 | All Keyings 	| 🚧    	| 🚧    	| 🚧    	|
 
 ## PCB design considerations
+
+Some PCB design considerations couldn't be specified in the footprint, so they will be here.
+
+- You *must* have a PCB stackup that is 0.8mm in thickness.
+
+- You *should* use ENIG (chemical gold plating) on the M.2 connector, to guarantee the longevity is within spec.
+
+- You *should* have the PCB connector edge chamfered at 20° to facilitate insertion and removal. (diagram 2.3.5.1, page 38)
+
+Generally, reading the spec is not a bad idea to design a good card.
