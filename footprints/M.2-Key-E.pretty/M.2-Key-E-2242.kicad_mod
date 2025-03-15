@@ -792,4 +792,33 @@
 			)
 		)
 	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "B.Cu")
+		(uuid "82571b27-7df3-4aea-b98a-67482de1f5aa")
+		(name "BOTTOM COMPONENT KEEPOUT")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour allowed)
+			(footprints not_allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 2.1 43) (xy 21.9 43) (xy 21.9 39) (xy 23 39) (xy 23 37.8) (xy 1 37.8) (xy 1 39) (xy 2.1 39)
+			)
+		)
+	)
 )
