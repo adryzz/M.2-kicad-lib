@@ -1,7 +1,7 @@
 (footprint "M.2-Key-A-2230-antennas"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 10.725 7.6 0)
@@ -20,19 +20,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "9862be79-3ac3-43db-bcb7-5a20ec2c330c")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 10.725 8.1 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "840b3d23-392f-4e69-a79f-2f5c2dea630c")
 		(effects
 			(font
 				(size 1 1)
@@ -389,46 +376,6 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "28da88ae-877c-4606-b6d1-f273a1ea1d40")
-	)
-	(fp_line
-		(start 0 0)
-		(end 0 32)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "98cf7a22-2b1b-4502-a607-9dc084695b5c")
-	)
-	(fp_line
-		(start 0 32)
-		(end 24 32)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "927bdbc8-85b2-49d0-bc87-d31049f12c40")
-	)
-	(fp_line
-		(start 24 0)
-		(end 0 0)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "2576f9f1-dd4f-4515-b646-1847482e5b69")
-	)
-	(fp_line
-		(start 24 32)
-		(end 24 0)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "20362fd4-b422-4a18-8049-6b5efdd0c7f8")
 	)
 	(fp_text user "ANT1"
 		(at 19.85 3.35 0)
@@ -1000,6 +947,10 @@
 			(copperpour allowed)
 			(footprints not_allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -1013,7 +964,7 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "F&B.Cu")
+		(layers "F.Cu" "B.Cu")
 		(uuid "52d3e4c1-857a-4f49-aaaf-62408e1ba448")
 		(name "ANTENNAS")
 		(hatch edge 0.5)
@@ -1028,6 +979,10 @@
 			(pads not_allowed)
 			(copperpour allowed)
 			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
 		)
 		(fill
 			(thermal_gap 0.5)
@@ -1061,6 +1016,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -1089,6 +1048,10 @@
 			(pads allowed)
 			(copperpour not_allowed)
 			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
 		)
 		(fill
 			(thermal_gap 0.5)
@@ -1119,6 +1082,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -1147,6 +1114,10 @@
 			(pads allowed)
 			(copperpour not_allowed)
 			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
 		)
 		(fill
 			(thermal_gap 0.5)
@@ -1177,6 +1148,10 @@
 			(copperpour allowed)
 			(footprints not_allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -1187,4 +1162,5 @@
 			)
 		)
 	)
+	(embedded_fonts no)
 )

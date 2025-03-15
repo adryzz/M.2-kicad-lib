@@ -1,7 +1,7 @@
 (footprint "M.2-Key-M-2242"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 10.7 7.6 0)
@@ -20,19 +20,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "bf3f6f1d-f449-42c8-8400-21a315dfda78")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 10.7 8.1 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e6b7f7e6-2a14-4e21-b677-55f00f647402")
 		(effects
 			(font
 				(size 1 1)
@@ -230,46 +217,6 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "e2289815-1d4e-43f9-9af8-b827a3ca6c3a")
-	)
-	(fp_line
-		(start 0 0)
-		(end 0 44)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "0cd25b6e-9ade-4d35-ab54-272dc6d1219e")
-	)
-	(fp_line
-		(start 0 44)
-		(end 24 44)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "96ed76e6-acaa-4c9e-bdb5-83add05d863d")
-	)
-	(fp_line
-		(start 24 0)
-		(end 0 0)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "e3cb6d7e-02c6-4a6b-b051-3801d17ff0a8")
-	)
-	(fp_line
-		(start 24 44)
-		(end 24 0)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "04829c55-1279-4452-90b7-13233b9b8363")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 10.7 10.6 0)
@@ -785,6 +732,10 @@
 			(copperpour allowed)
 			(footprints not_allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -814,6 +765,10 @@
 			(copperpour allowed)
 			(footprints not_allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -824,4 +779,5 @@
 			)
 		)
 	)
+	(embedded_fonts no)
 )

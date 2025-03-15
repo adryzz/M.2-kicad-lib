@@ -419,46 +419,6 @@
 		(layer "Edge.Cuts")
 		(uuid "27e99b46-bb3b-47aa-9e6a-62677e3f6677")
 	)
-	(fp_line
-		(start 0 0)
-		(end 0 32)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "f9f1b7e6-13ba-49fa-9486-b34867f489c6")
-	)
-	(fp_line
-		(start 0 32)
-		(end 24 32)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "6ce4f306-1308-4a6b-9507-0a5a2d68a81b")
-	)
-	(fp_line
-		(start 24 0)
-		(end 0 0)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "02b85ceb-d016-438f-953d-362dd859c305")
-	)
-	(fp_line
-		(start 24 32)
-		(end 24 0)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "eb43956b-30d0-4454-a87f-440fd8c72587")
-	)
 	(fp_text user "ANT2"
 		(at 15.35 3.35 0)
 		(unlocked yes)
