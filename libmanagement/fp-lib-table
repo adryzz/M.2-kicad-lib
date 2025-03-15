@@ -5,4 +5,5 @@
   (lib (name "M.2-Key-B")(type "KiCad")(uri "${KIPRJMOD}/../footprints/M.2-Key-B.pretty")(options "")(descr ""))
   (lib (name "M.2-Key-B+M")(type "KiCad")(uri "${KIPRJMOD}/../footprints/M.2-Key-B+M.pretty")(options "")(descr ""))
   (lib (name "M.2-Key-A")(type "KiCad")(uri "${KIPRJMOD}/../footprints/M.2-Key-A.pretty")(options "")(descr ""))
+  (lib (name "M.2-Key-A+E")(type "KiCad")(uri "${KIPRJMOD}/../footprints/M.2-Key-A+E.pretty")(options "")(descr ""))
 )

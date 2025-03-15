@@ -20,7 +20,7 @@ Handmade following the [PCI Express M.2 Electromechanical Specification Revision
 | Key A   	| ☑️📶    	| ❌    	| ❌    	| ❌    	| ❌     	| 🚧    	| 🚧    	| ❌    	|
 | Key B   	| ☑️    	| ☑️    	| ☑️    	| ☑️    	| ☑️     	| ❌    	| ❌    	| ❌    	|
 | Key E   	| ☑️📶   	| ☑️📶\*  	| ❌    	| ❌    	| ❌     	| 🚧    	| 🚧    	| ❌    	|
-| Key A+E 	| 🚧    	| 🚧*   	| ❌    	| ❌    	| ❌     	| 🚧    	| 🚧    	| ❌    	|
+| Key A+E 	| ☑️📶    	| ☑️📶\*   	| ❌    	| ❌    	| ❌     	| 🚧    	| 🚧    	| ❌    	|
 | Key M   	| ☑️    	| ☑️    	| ☑️    	| ☑️    	| ☑️     	| ❌    	| ❌    	| ❌    	|
 | Key B+M 	| ☑️    	| ☑️    	| ☑️    	| ☑️    	| ☑️     	| ❌    	| ❌    	| ❌    	|
 | Key G 	| ✖️    	| ✖️    	| ✖️    	| ✖️    	| ✖️     	| ✖️    	| ✖️    	| ✖️    	|
