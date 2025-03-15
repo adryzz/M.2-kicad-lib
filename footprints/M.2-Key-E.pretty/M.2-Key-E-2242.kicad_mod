@@ -763,4 +763,33 @@
 		(zone_connect 2)
 		(uuid "6987c95e-c577-42d6-ab20-0944256bfc84")
 	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "060891e4-a159-4201-ab77-8ebbe068eabc")
+		(name "TOP COMPONENT KEEPOUT")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour allowed)
+			(footprints not_allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 2.1 43) (xy 2.1 39) (xy 21.9 39) (xy 21.9 43)
+			)
+		)
+	)
 )

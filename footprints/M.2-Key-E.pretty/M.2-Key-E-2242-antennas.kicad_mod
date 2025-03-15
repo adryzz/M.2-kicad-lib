@@ -982,6 +982,35 @@
 	(zone
 		(net 0)
 		(net_name "")
+		(layer "F.Cu")
+		(uuid "5a578b00-6f53-41c7-94d1-b6a2fba45976")
+		(name "TOP COMPONENT KEEPOUT")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour allowed)
+			(footprints not_allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 2.1 43) (xy 2.1 39) (xy 21.9 39) (xy 21.9 43)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
 		(layers "F&B.Cu")
 		(uuid "f3749759-6a3f-46fe-a85c-622fdf4c0072")
 		(name "ANTENNAS")
