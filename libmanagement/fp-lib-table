@@ -6,5 +6,5 @@
   (lib (name "M.2-Key-B+M")(type "KiCad")(uri "${KIPRJMOD}/../footprints/M.2-Key-B+M.pretty")(options "")(descr ""))
   (lib (name "M.2-Key-A")(type "KiCad")(uri "${KIPRJMOD}/../footprints/M.2-Key-A.pretty")(options "")(descr ""))
   (lib (name "M.2-Key-A+E")(type "KiCad")(uri "${KIPRJMOD}/../footprints/M.2-Key-A+E.pretty")(options "")(descr ""))
-  (lib (name "PCI_Express_Mini")(type "KiCad")(uri "${KIPRJMOD}/../footprints/PCI_Express_Mini.pretty")(options "")(descr ""))
+  (lib (name "PCI_Express_Mini_Card")(type "KiCad")(uri "${KIPRJMOD}/../footprints/PCI_Express_Mini_Card.pretty")(options "")(descr ""))
 )

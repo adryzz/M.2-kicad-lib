@@ -1,4 +1,4 @@
-(footprint "PCI_Express_Mini_Full"
+(footprint "PCI_Express_Mini_Full_Card"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "PCI_Express_Mini_Full"
+	(property "Value" "PCI_Express_Mini_Full_Card"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")

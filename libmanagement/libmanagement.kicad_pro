@@ -458,7 +458,8 @@
       "M.2-Key-B+M",
       "M.2-Key-A",
       "M.2-Key-A+E",
-      "miniPCIe"
+      "miniPCIe",
+      "PCI_Express_Mini_Card"
     ],
     "pinned_symbol_libs": []
   },

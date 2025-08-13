@@ -1,4 +1,4 @@
-(footprint "PCI_Express_Mini_Half"
+(footprint "PCI_Express_Mini_Half_Card"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "Mini PCI Express Half"
+	(property "Value" "PCI_Express_Mini_Half_Card"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -728,7 +728,7 @@
 		)
 		(polygon
 			(pts
-				(xy -15 -4.4) (xy -15 1.4) (xy -10.9 1.4) (xy -9.2 -0.3) (xy -9.2 -4.4) (xy -9.2 -4.4)
+				(xy -15 -4.4) (xy -15 1.4) (xy -10.9 1.4) (xy -9.2 -0.3) (xy -9.2 -4.4)
 			)
 		)
 	)
